@@ -1,11 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Group
+kind: Component
 metadata:
-  name: tibco-templates
-  description: Tibco templates group
+  name: test-catalog
+  annotations:
+    github.com/project-slug: sgantaya/test-catalog
 spec:
-  type: organization
-  profile:
-    displayName: Tibco templates
-    email: info@acme.com
-  children: []
+  type: other
+  lifecycle: unknown
