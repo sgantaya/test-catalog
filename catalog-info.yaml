@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: test-catalog
+  name: test-catalog1
   annotations:
     github.com/project-slug: sgantaya/test-catalog
 spec:
